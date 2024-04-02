@@ -1,24 +1,24 @@
 {
-  "_Breadcrumb-BU8ovRwb.js": {
-    "file": "assets/Breadcrumb-BU8ovRwb.js",
+  "_Breadcrumb-BE4B2Ael.js": {
+    "file": "assets/Breadcrumb-BE4B2Ael.js",
     "name": "Breadcrumb",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
-  "_ImageDescription-Clm8MQ77.js": {
-    "file": "assets/ImageDescription-Clm8MQ77.js",
+  "_ImageDescription-B9gQ8GLK.js": {
+    "file": "assets/ImageDescription-B9gQ8GLK.js",
     "name": "ImageDescription",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
-  "_separator-ClwUTkrB.js": {
-    "file": "assets/separator-ClwUTkrB.js",
-    "name": "separator",
+  "_axios-DUwZyw7d.js": {
+    "file": "assets/axios-DUwZyw7d.js",
+    "name": "axios",
     "imports": [
       "resources/js/app.tsx",
-      "_Breadcrumb-BU8ovRwb.js"
+      "_Breadcrumb-BE4B2Ael.js"
     ]
   },
   "resources/css/app.css": {
@@ -26,40 +26,40 @@
     "src": "resources/js/app.tsx"
   },
   "resources/js/Pages/Blog/View.tsx": {
-    "file": "assets/View-D6rOWY7t.js",
+    "file": "assets/View-DJc52cQB.js",
     "name": "View",
     "src": "resources/js/Pages/Blog/View.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_Breadcrumb-BU8ovRwb.js",
-      "_separator-ClwUTkrB.js"
+      "_Breadcrumb-BE4B2Ael.js",
+      "_axios-DUwZyw7d.js"
     ]
   },
   "resources/js/Pages/Blog/index.tsx": {
-    "file": "assets/index-BkpKt8fA.js",
+    "file": "assets/index-DBMX_i8k.js",
     "name": "index",
     "src": "resources/js/Pages/Blog/index.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_Breadcrumb-BU8ovRwb.js",
-      "_separator-ClwUTkrB.js",
-      "_ImageDescription-Clm8MQ77.js"
+      "_Breadcrumb-BE4B2Ael.js",
+      "_axios-DUwZyw7d.js",
+      "_ImageDescription-B9gQ8GLK.js"
     ]
   },
   "resources/js/Pages/Home/Blog.tsx": {
-    "file": "assets/Blog-fAbBRQrJ.js",
+    "file": "assets/Blog-Bhs7UUmE.js",
     "name": "Blog",
     "src": "resources/js/Pages/Home/Blog.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_ImageDescription-Clm8MQ77.js"
+      "_ImageDescription-B9gQ8GLK.js"
     ]
   },
   "resources/js/Pages/Home/GitHub.tsx": {
-    "file": "assets/GitHub-D4W9ZC8D.js",
+    "file": "assets/GitHub-CTXJ6Evt.js",
     "name": "GitHub",
     "src": "resources/js/Pages/Home/GitHub.tsx",
     "isDynamicEntry": true,
@@ -68,7 +68,7 @@
     ]
   },
   "resources/js/Pages/Home/LinkedIn.tsx": {
-    "file": "assets/LinkedIn-FosUJ9Zl.js",
+    "file": "assets/LinkedIn-DfU83Ugk.js",
     "name": "LinkedIn",
     "src": "resources/js/Pages/Home/LinkedIn.tsx",
     "isDynamicEntry": true,
@@ -77,7 +77,7 @@
     ]
   },
   "resources/js/Pages/Home/More.tsx": {
-    "file": "assets/More-B4d-ZKjl.js",
+    "file": "assets/More-F9vokGCj.js",
     "name": "More",
     "src": "resources/js/Pages/Home/More.tsx",
     "isDynamicEntry": true,
@@ -86,7 +86,7 @@
     ]
   },
   "resources/js/Pages/Home/MyServices.tsx": {
-    "file": "assets/MyServices-C8PCKDpz.js",
+    "file": "assets/MyServices-CubWnhP1.js",
     "name": "MyServices",
     "src": "resources/js/Pages/Home/MyServices.tsx",
     "isDynamicEntry": true,
@@ -95,13 +95,13 @@
     ]
   },
   "resources/js/Pages/Home/index.tsx": {
-    "file": "assets/index-BcLrRnCv.js",
+    "file": "assets/index-BYXY6VYM.js",
     "name": "index",
     "src": "resources/js/Pages/Home/index.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_Breadcrumb-BU8ovRwb.js"
+      "_Breadcrumb-BE4B2Ael.js"
     ],
     "dynamicImports": [
       "resources/js/Pages/Home/More.tsx",
@@ -112,7 +112,7 @@
     ]
   },
   "resources/js/app.tsx": {
-    "file": "assets/app-BDwlaN8E.js",
+    "file": "assets/app-Ca6l9tHE.js",
     "name": "app",
     "src": "resources/js/app.tsx",
     "isEntry": true,

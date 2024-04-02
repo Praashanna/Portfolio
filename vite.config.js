@@ -3,6 +3,7 @@ import laravel from 'laravel-vite-plugin';
 import react from '@vitejs/plugin-react'
 import viteTsconfigPaths from 'vite-tsconfig-paths';
 import path from 'path';
+import purgeCSSPlugin from "@fullhuman/postcss-purgecss";
 export default defineConfig({
     plugins: [
         laravel({
@@ -11,6 +12,11 @@ export default defineConfig({
         }),
         react(),
         viteTsconfigPaths(),
+        purgeCSSPlugin({
+            content: ['./resources/js/**/*.tsx'],
+            safelist: ['html', 'body'],
+            css: ['./resources/css/app.css'],
+        }),
     ],
     resolve: {
         alias: {

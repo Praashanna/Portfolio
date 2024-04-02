@@ -6,6 +6,8 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@erbelion/vite-plugin-laravel-purgecss": "^0.2.3",
+        "@fullhuman/postcss-purgecss": "^6.0.0",
         "@types/react": "^18.2.67",
         "@types/react-dom": "^18.2.22",
         "autoprefixer": "^10.4.19",

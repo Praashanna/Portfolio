@@ -646,11 +646,11 @@ a:has(.image-description.blog:hover) {
 
 body:after {
     content: "";
+    @apply fixed top-0 left-0 w-full h-full z-10 pointer-events-none touch-none;
     transition: background-color 1s ease-out, backdrop-filter 1s ease-out;
 }
 
 body:has(.image-description.blog:hover):after {
-    @apply fixed top-0 left-0 w-full h-full z-10;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(0.1rem);
 }
